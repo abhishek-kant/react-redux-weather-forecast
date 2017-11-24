@@ -1,0 +1,1 @@
+React redux app to show weather forecast for different cities
