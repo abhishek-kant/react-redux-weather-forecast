@@ -3,6 +3,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import logo from './logo.svg';
 import './App.css';
 import SearchBar from "../../containers/SearchBar"
+import WeatherList from "../../containers/WeatherList";
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <MuiThemeProvider>
         <div className="App">
           <SearchBar></SearchBar>
+          <WeatherList></WeatherList>
         </div>
       </MuiThemeProvider>
     );
